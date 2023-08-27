@@ -13,8 +13,7 @@
 <body>
 
     <div class="container">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
             <div class="col-md-3 mb-2 mb-md-0">
                 <a href="index.php" class="d-inline-flex link-body-emphasis text-decoration-none">
                     <img src="assets/images/logo.png" alt="logo-image">
@@ -25,7 +24,7 @@
                 <li><a href="dashboard.php" class="nav-link px-2 ">Dashboard</a></li>
                 <li><a href="item.php" class="nav-link px-2">Item</a></li>
                 <li><a href="user.php" class="nav-link px-2">User</a></li>
-                <li><a href="#" class="nav-link px-2">Penjualan</a></li>
+                <li><a href="penjualan.php" class="nav-link px-2">Penjualan</a></li>
                 <li><a href="#" class="nav-link px-2">Laporan</a></li>
             </ul>
 
