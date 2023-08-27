@@ -25,7 +25,7 @@
                 <li><a href="item.php" class="nav-link px-2">Item</a></li>
                 <li><a href="user.php" class="nav-link px-2">User</a></li>
                 <li><a href="penjualan.php" class="nav-link px-2">Penjualan</a></li>
-                <li><a href="#" class="nav-link px-2">Laporan</a></li>
+                <li><a href="laporan.php" class="nav-link px-2">Laporan</a></li>
             </ul>
 
             <div class="col-md-3 text-end">
