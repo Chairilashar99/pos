@@ -2,4 +2,8 @@
 
 $mode = !empty($_GET['mode']) ? $_GET['mode'] : '';
 
-include_once 'views/laporan/v_laporan.php';
+if ($mode == 'view') {
+    include_once 'views/laporan/v_laporan_detail.php';
+} else {
+    include_once 'views/laporan/v_laporan.php';
+}

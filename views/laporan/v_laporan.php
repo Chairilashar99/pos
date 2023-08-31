@@ -6,8 +6,8 @@ include_once 'views/header.php';
     <div class="container">
         <nav aria-label="breadcrumb" class="mb-5">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="user.php">User</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Form User</li>
+                <li class="breadcrumb-item"><a href="laporan.php">Laporan</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Laporan Penjualan</li>
             </ol>
         </nav>
         <div class="row mb-3">
@@ -57,7 +57,7 @@ include_once 'views/header.php';
                                 <td style="width: 200px; text-align: right;">Rp35.000</td>
                                 <td style="width: 200px; text-align: center;">Cash</td>
                                 <td style="width: 100px; text-align: center;">
-                                    <a href="" class="btn btn-danger btn-sm"><i class="fa-solid fa-eye"></i> Lihat</a>
+                                    <a href="laporan.php?mode=view" class="btn btn-danger btn-sm"><i class="fa-solid fa-eye"></i> Lihat</a>
                                 </td>
                             </tr>
                         </tbody>
