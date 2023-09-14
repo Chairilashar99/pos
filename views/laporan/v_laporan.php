@@ -16,11 +16,11 @@ include_once 'views/header.php';
                     <form action="">
                         <div class="row">
                             <div class="col-md-2">
-                                <input type="text" name="startdate" class="form-control">
+                                <input type="text" name="startdate" class="form-control datepicker">
                             </div>
 
                             <div class="col-md-2">
-                                <input type="text" name="enddate" class="form-control">
+                                <input type="text" name="enddate" class="form-control datepicker">
                             </div>
 
                             <div class="col-md-2">
