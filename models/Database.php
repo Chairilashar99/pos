@@ -3,18 +3,19 @@
 class Database
 {
 
-    private $hostname;
-    private $username;
-    private $password;
-    private $dbname;
+    private $hostname = 'localhost';
+    private $username = 'root';
+    private $password = '';
+    private $dbname = 'pos';
     public $conn;
 
     public function __construct()
     {
         $this->conn = new mysqli($this->hostname, $this->username, $this->password, $this->dbname);
-        if (!$this->conn->connect_error) {
+        if ($this->conn->connect_error) {
             die("Connection failed: " . $this->conn->connect_error);
         }
+
         return true;
     }
     private function executeQuery($query)

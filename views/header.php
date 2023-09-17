@@ -30,7 +30,13 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <a href="login.php" class="btn btn-primary m-2"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                <?php
+                if ($isLogin == true) {
+                    echo '<a href="login.php" class="btn btn-danger m-2"><i class="fa-solid fa-right-to-bracket"></i> Logout</a>';
+                } else {
+                    echo '<a href="login.php" class="btn btn-primary m-2"><i class="fa-solid fa-right-to-bracket"></i> Login</a>';
+                }
+                ?>
             </div>
         </header>
     </div>
